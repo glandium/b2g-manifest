@@ -9,6 +9,8 @@
           fetch="git://codeaurora.org/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
+  <remote name="glandium"
+          fetch="git://github.com/glandium/" />
   <default revision="ics_chocolate"
            remote="caf"
            sync-j="4" />
@@ -34,6 +36,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
+  <project path="external/busybox" name="busybox" remote="glandium" revision="master" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
